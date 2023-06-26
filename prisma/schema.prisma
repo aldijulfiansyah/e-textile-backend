@@ -17,7 +17,7 @@ model Products{
   name String
   price Int
   createdAt DateTime @default(now())
-
+  
 }
 
 model Users {
