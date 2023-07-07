@@ -1,0 +1,30 @@
+#####
+
+POST http://localhost:2002/api/v1/register 
+Content-Type: application/json
+
+{
+    "username": "boy",
+    "email": "boyxx@gmail.csdo",
+    "password": "abcd123",
+    "confPassword": "abcd123"
+}
+
+#######
+
+GET http://localhost:2002/users 
+
+
+
+
+
+
+###
+
+POST http://localhost:2002/api/v1/login 
+Content-Type: application/json
+
+{
+    "email": "boy@gmail.csdo",
+    "password": "abcd123"
+}
